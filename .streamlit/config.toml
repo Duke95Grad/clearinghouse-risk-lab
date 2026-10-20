@@ -1,0 +1,61 @@
+# Clearinghouse Risk Lab theme: "clearing ledger"
+[server]
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#0E5A6B"            # petrol: actions, selection
+backgroundColor = "#F6F7F5"         # cool paper
+secondaryBackgroundColor = "#ECEFEA"
+textColor = "#1B2A3A"               # ink
+borderColor = "#D5DAD3"             # rule
+dataframeBorderColor = "#E1E5DF"
+dataframeHeaderBackgroundColor = "#EEF1EC"
+dataframeHeaderTextColor = "#3A4A5A"
+showWidgetBorder = true
+showSidebarBorder = true
+linkColor = "#0E5A6B"
+redColor = "#B4361E"                # losses
+greenColor = "#1F6F4A"              # gains
+orangeColor = "#B7791F"             # binding point
+blueColor = "#0E5A6B"
+baseRadius = "6px"
+buttonRadius = "6px"
+baseFontSize = 15
+font = "Plex, 'IBM Plex Sans', 'Segoe UI', Helvetica, Arial, sans-serif"
+headingFont = "PlexCond, 'IBM Plex Sans Condensed', 'Arial Narrow', sans-serif"
+headingFontWeights = [600, 600, 600, 600, 500, 500]
+headingFontSizes = ["2.0rem", "1.45rem", "1.15rem", "1.0rem", "0.95rem", "0.9rem"]
+metricValueFontSize = "1.9rem"
+chartCategoricalColors = ["#0E5A6B", "#B7791F", "#6B3F69", "#5B6B7A", "#5E8F6E", "#9C4A3A"]
+
+[[theme.fontFaces]]
+family = "Plex"
+url = "app/static/fonts/IBMPlexSans-Regular.woff2"
+weight = 400
+[[theme.fontFaces]]
+family = "Plex"
+url = "app/static/fonts/IBMPlexSans-Medium.woff2"
+weight = 500
+[[theme.fontFaces]]
+family = "Plex"
+url = "app/static/fonts/IBMPlexSans-SemiBold.woff2"
+weight = 600
+[[theme.fontFaces]]
+family = "PlexCond"
+url = "app/static/fonts/IBMPlexSansCondensed-Medium.woff2"
+weight = 500
+[[theme.fontFaces]]
+family = "PlexCond"
+url = "app/static/fonts/IBMPlexSansCondensed-SemiBold.woff2"
+weight = 600
+
+[theme.sidebar]
+backgroundColor = "#EDF0EB"
+secondaryBackgroundColor = "#E3E7E1"
+
+[client]
+toolbarMode = "minimal"
